@@ -32,5 +32,16 @@ To generate the results in table 3 in the paper, inside folder Nonlinear Diffusi
 
 To generate the results in figure 3, run run_stability_experiment.sh
 
+# FASHION MNIST Experiments
 
+You can find the code for FASHION MNIST experiments inside the folder Fashion_MNIST_Experiments. Inside the folder, you can find:
+
+- Visualization Folder: contains the code to generate figure 1 and figure 4 in the paper. In order to generate the figures, you need to:
+  - Download FASHION_MNIST dataset from https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion and add it in a folder data/fashion-mnist
+  - Run test_fashion_mnist.m to generate the figures.
+- Dispersion_Experiment: contains the code to generate figure 5 in the paper. In order to generate the figure, you need to go to the folder and then run:
+```
+julia generate_variances.jl
+python darw_python.py
+```
 
