@@ -28,6 +28,9 @@ You can find the code for graph-based semi-supervised learning experiment inside
 - Nonlinear Diffusion via Nonlinear Transfer: contains the code for running nonlinear diffusion using p-Laplacian.
 - Stability_Experiment: contains the code to generate figure 3 in the paper, where we vary the parameters for power function and tanh function and show that the classification accuracy remains highfor many choices.
 
+To generate the results in table 3 in the paper, inside folder Nonlinear Diffusion with Growth or Decay run run_cora.sh to get the results for the cora dataset, run run_citeseer.sh to get the results on citeseer dataset and run run_pubmed.sh to get the results on pubmed dataset.
+
+To generate the results in figure 3, run run_stability_experiment.sh
 
 
 
