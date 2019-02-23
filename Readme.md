@@ -47,3 +47,4 @@ julia generate_variances.jl
 python darw_python.py
 ```
 
+- HK_Power_Results: contains the code to generate the result reported in table 4.
