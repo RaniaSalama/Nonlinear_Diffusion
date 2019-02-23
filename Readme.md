@@ -1,13 +1,15 @@
+# Nonlinear Diffusion for Community Detection and Semi-Supervised Learning
+
 The code used in Rania Ibrahim and David F. Gleich. "Nonlinear Diffusion for Community Detection and Semi-Supervised Learning" paper, accepted at The Web Conference (formally WWW), 2019.
 
-# Synthetic Data Experiments
+## Synthetic Data Experiments
 
 You can find the code for LFR synthetic data experiments in LFR_Figures folder.
 To generate the conductance and F1 results, which are reported in figure 2 in the paper, run run_on_LFR_data.m
 
-# Community Detection Experiments
+## Community Detection Experiments
 
-You can find the code for community detection experiments in Community_Detection_Experiments folder. Inside this folder there is three subfolders:
+You can find the code for community detection experiments in Community_Detection_Experiments folder. Inside this folder there are three subfolders:
 
 - community_detection: contains the experiments for nonlinear diffusion using power function.
 - community_detection_tanh: contains the experiments for nonlinear diffusion using tanh function.
@@ -20,19 +22,19 @@ To generate the results in table 1 of the paper: First download the datasets fro
 - run_com-youtube.jl: which produces the Youtube results.
 - run_com-lj: which produces the Live Journal results.
 
-# Graph-based Semi-supervised Learning Experiments
+## Graph-based Semi-supervised Learning Experiments
 
-You can find the code for graph-based semi-supervised learning experiment inside the folder Graph-based_Semi-supervised Learning_Experiment. Inside this folder, there is three subfolders:
+You can find the code for graph-based semi-supervised learning experiment inside the folder Graph-based_Semi-supervised Learning_Experiment. Inside this folder, there are three subfolders:
 
 - Nonlinear Diffusion with Growth or Decay: contains the code for running nonlinear diffusion using power function or tanh function.
 - Nonlinear Diffusion via Nonlinear Transfer: contains the code for running nonlinear diffusion using p-Laplacian.
-- Stability_Experiment: contains the code to generate figure 3 in the paper, where we vary the parameters for power function and tanh function and show that the classification accuracy remains highfor many choices.
+- Stability_Experiment: contains the code to generate figure 3 in the paper, where we vary the parameters for power function and tanh function and show that the classification accuracy remains high for many choices.
 
 To generate the results in table 3 in the paper, inside folder Nonlinear Diffusion with Growth or Decay run run_cora.sh to get the results for the cora dataset, run run_citeseer.sh to get the results on citeseer dataset and run run_pubmed.sh to get the results on pubmed dataset.
 
 To generate the results in figure 3, run run_stability_experiment.sh
 
-# FASHION MNIST Experiments
+## FASHION MNIST Experiments
 
 You can find the code for FASHION MNIST experiments inside the folder Fashion_MNIST_Experiments. Inside the folder, you can find:
 
