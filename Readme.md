@@ -1,4 +1,4 @@
-The code used in Rania Ibrahim and David F. Gleich. "Nonlinear Diffusion for Community Detection andSemi-Supervised Learning" paper, accepted at The Web Conference (formally WWW), 2019.
+The code used in Rania Ibrahim and David F. Gleich. "Nonlinear Diffusion for Community Detection and Semi-Supervised Learning" paper, accepted at The Web Conference (formally WWW), 2019.
 
 # Synthetic Data Experiments
 
@@ -19,5 +19,15 @@ To generate the results in table 1 of the paper: First download the datasets fro
 - run_com-amazon.jl: which produces the Amazon results.
 - run_com-youtube.jl: which produces the Youtube results.
 - run_com-lj: which produces the Live Journal results.
+
+# Graph-based Semi-supervised Learning Experiments
+
+You can find the code for graph-based semi-supervised learning experiment inside the folder Graph-based_Semi-supervised Learning_Experiment. Inside this folder, there is three subfolders:
+
+- Nonlinear Diffusion with Growth or Decay: contains the code for running nonlinear diffusion using power function or tanh function.
+- Nonlinear Diffusion via Nonlinear Transfer: contains the code for running nonlinear diffusion using p-Laplacian.
+- Stability_Experiment: contains the code to generate figure 3 in the paper, where we vary the parameters for power function and tanh function and show that the classification accuracy remains highfor many choices.
+
+
 
 
