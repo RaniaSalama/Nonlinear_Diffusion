@@ -1,0 +1,1 @@
+To reproduce the results in Table 3 in the paper, run run_cora.sh to get the results for the cora dataset, run run_citeseer.sh to get the results on citeseer dataset and run run_pubmed.sh to get the results on pubmed dataset.
